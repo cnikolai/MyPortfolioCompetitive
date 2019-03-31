@@ -37,6 +37,13 @@ body, html {
   /* height: 100%; */
 }
 
+.backbutton {
+  /* display: flex; */
+  align-self: flex-start;
+  width: 50px;
+  color: green;
+}
+
 .spacer {
   height: 125px;
 }
@@ -55,7 +62,8 @@ body, html {
 
 .container {
   /* width:100%;
-  height:100%; */
+  */
+  height:100vh; 
   /* position:relative; */
   /* display: flex;
   align-items: center;
@@ -93,6 +101,25 @@ body, html {
     flex-flow: column;
   }
   
+  .alignerleft {
+    /* margin-top: 225px; */
+     display: initial;
+    align-items: left;
+    justify-content: left;
+    /* display: unset; */
+    /* flex-flow: column; */
+  }
+
+/* HEADER */
+main {
+  min-height: 400px;
+  min-width: 400px;
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 55px 50px -20px #b6b6b6; 
+}
+
   /* .aligner-item {
       flex: 1;
   } */
